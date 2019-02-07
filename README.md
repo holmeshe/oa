@@ -1,7 +1,16 @@
 # Online Assessment for VetRadar
 
-## Start the server:
-DEBUG=cart:* npm start
+## Install & start:
+```
+>cd oa
+>npm install
+>DEBUG=cart:* npm start
+```
+
+then,
+
+`http://localhost:3000/`
+-> Browser
 
 ## APIs:
 
