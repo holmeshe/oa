@@ -1,4 +1,5 @@
-SQLs for database establishing
+# SQLs for database establishing 
+**(Just for reference, the SQLite file is included)**
 ==================================================================================
 CREATE TABLE products(uid CHAR(32) PRIMARY KEY, name TEXT, price INTEGER);
 INSERT INTO products values('b0885a5c2aa511e9b210d663bd873d93', 'Sledgehammer', 12576);
@@ -8,7 +9,9 @@ INSERT INTO products values('b0885fac2aa511e9b210d663bd873d93', 'Chisel', 139);
 INSERT INTO products values('b08860f62aa511e9b210d663bd873d93', 'Hacksaw', 1945);
 ==================================================================================
 
-Start the server:
+# Start the server:
 DEBUG=cart:* npm start
 
+# APIs:
+/products
 
