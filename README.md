@@ -1,6 +1,6 @@
 # Online Assessment for VetRadar
 
-## Install & start:
+## Install & start
 ```
 >cd oa
 >npm install
@@ -12,7 +12,7 @@ then,
 `http://localhost:3000/`
 -> Browser
 
-## APIs:
+## APIs
 
 `/products` : get all products
 
@@ -26,7 +26,7 @@ then,
 
 ## SQLs for database establishing 
 
-**(Just for reference, the SQLite file is included)**
+**(Just for reference, the SQLite file is already included in the working directory)**
 
 ==================================================================================
 
