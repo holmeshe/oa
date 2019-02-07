@@ -5,15 +5,15 @@ DEBUG=cart:* npm start
 
 ## APIs:
 
-/products			: get all products
+`/products` : get all products
 
-/cart/add?id={product id}	: add one product to the cart
+`/cart/add?id={product id}` : add one product to the cart
 
-/cart/view			: list cart
+`/cart/view` : list cart
 
-/cart/remove?id={product id}	: remove one product from the cart
+`/cart/remove?id={product id}` : remove one product from the cart
 
-/cart/removeAll?id={product id}	: remove all product (of one kind) from the cart
+`/cart/removeAll?id={product id}` : remove all product (of one kind) from the cart
 
 ## SQLs for database establishing 
 
