@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  ul
+    each val in entries
+      li=val.name + '\t' + val.price_int + '.' + val.price_dec + '\t' + val.num + '\t'
+        form(action='/cart/remove?id='+val.id method='post')
+          input(type='submit' value='Remove 1')
+        form(action='/cart/removeAll?id='+val.id method='post')
+          input(type='submit' value='Remove all')
+  p='Sum:' + sum.sum_int + '.' + sum.sum_dec 
+  a(href='/') Go Back
+
+  

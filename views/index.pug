@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  ul
+    each val in products
+      form(action='/cart/add?id='+val.id method='post')
+        li=val.name + '\t' + val.price_int + '.' + val.price_dec + '\t'
+          input(type='submit' value='Buy')
+
+  a(href='/cart/view') My Cart
+
