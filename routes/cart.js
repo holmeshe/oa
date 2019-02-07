@@ -28,6 +28,7 @@ renderCart = function(res) {
 }
 
 router.get('/view', function(req, res, next) {
+  renderCart(res);
 });
 
 router.post('/add', function(req, res, next) {
